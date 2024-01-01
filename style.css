@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
 
 * {
     margin: 0;
@@ -66,15 +68,56 @@ body {
 }
 
 
-.test {
-    height: 100vh;
-}
+
 
 
 /* about */
 
 .about {
     text-align: center;
+    margin-top: 20px;
+}
+
+.hr-title {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(255, 255, 255);
+}
+
+.about-content {
+    font-family: Raleway;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: rgba(4, 0, 255, 0.308) 0px 5px 15px 0px;
 }
 
 
+
+/* tech stack */
+
+.tech-stack {
+    margin-top: 120px;
+}
+
+.techs {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.techs img {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 40%;
+    border: 1px solid blue;
+    box-shadow: rgba(4, 0, 255, 0.308) 0px 5px 15px 0px;
+}
