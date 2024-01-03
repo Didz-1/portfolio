@@ -117,7 +117,54 @@ body {
     width: 80%;
     height: auto;
     margin-top: 20px;
-    border-radius: 40%;
-    border: 1px solid blue;
+}
+
+.tech-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.tech-img:hover {
+    transform: scale(1.3);
+}
+
+.tech-back {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: rgba(4, 0, 255, 0.308) 0px 5px 15px 0px;
+    padding-bottom: 25px;
+}
+
+
+
+/* projects */
+
+.projects {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.projects-back { 
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(4, 0, 255, 0.308) 0px 5px 15px 0px;
+    padding-bottom: 25px;
+}
+
+.project-card {
+    box-shadow: rgb(4, 0, 255) 0px 0px 15px 0px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.project-title {
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 28px;
 }
